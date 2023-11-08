@@ -39,7 +39,7 @@ Here's an example of how to use the code:
 python3 imageLabel.py
 ```
 
-##GUI
+## GUI
 ![gui](https://github.com/mr-fool/ImageIdentifier/assets/6241984/0f78da84-858e-4643-b310-15eaad9175a7)
 
 
