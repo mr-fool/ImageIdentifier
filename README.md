@@ -4,6 +4,9 @@
 
 This repository contains a Python script for performing image classification using pre-trained deep learning models. The code leverages the power of deep neural networks to predict the top classes for an input image, along with their associated probabilities. It uses PyTorch and torchvision to achieve this.
 
+## Purpose 
+This software leverages artificial intelligence to automatically generate descriptive labels for images. These generated labels can then be seamlessly integrated into website's alt tags, significantly improving accessibility for users with visual impairments. By making web content more inclusive, it ensures that everyone can access and understand the images displayed on the site.
+
 ## Features
 
 - Loads an image and preprocesses it for model input.
