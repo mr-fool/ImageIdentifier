@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
+from tkinter import scrolledtext  # Import scrolledtext for scrollable text widget
 from PIL import Image
 import matplotlib.pyplot as plt
 from torchvision import transforms
@@ -82,7 +83,8 @@ button_browse.pack()
 button_classify = tk.Button(app, text="Classify", command=classify_image)
 button_classify.pack()
 
-results_text = tk.Text(app, height=10, width=50)
+# Use scrolledtext for scrollable text widget
+results_text = scrolledtext.ScrolledText(app, height=10, width=50)
 results_text.pack()
 
 app.mainloop()
