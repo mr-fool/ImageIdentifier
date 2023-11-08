@@ -37,6 +37,10 @@ Here's an example of how to use the code:
 
 ```bash
 python3 imageLabel.py
-![gui](https://github.com/mr-fool/ImageIdentifier/assets/6241984/3c33ec44-92b5-4447-8d83-9212be55a1f6)
+```
+
+##GUI
+![gui](https://github.com/mr-fool/ImageIdentifier/assets/6241984/0f78da84-858e-4643-b310-15eaad9175a7)
+
 
 
