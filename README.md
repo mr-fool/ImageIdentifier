@@ -16,6 +16,7 @@ This repository contains a Python script for performing image classification usi
 2. Install the necessary dependencies (PyTorch, torchvision, Pillow, matplotlib).
 3. Replace the sample image with your own image in the script.
 4. Run the script to obtain image classification results.
+5. Use the classification as an alt-tag for websites to enhance accessibility.
 
 ## Prerequisites
 
