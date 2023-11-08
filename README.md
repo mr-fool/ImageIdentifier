@@ -33,7 +33,7 @@ This software leverages artificial intelligence to automatically generate descri
 ## Models
 
 - ResNet-152 (pre-trained on ImageNet)
-- AlexNet (pre-trained on ImageNet)
+- AlexNet (pre-trained on ImageNet) (deprecated)
 
 ## Example
 
