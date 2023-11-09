@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
-from tkinter import scrolledtext  # Import scrolledtext for scrollable text widget
+from tkinter import scrolledtext
 from PIL import Image
 import matplotlib.pyplot as plt
 from torchvision import transforms
@@ -10,6 +10,12 @@ from torchvision import models
 # Create a Tkinter application
 app = tk.Tk()
 app.title("Image Classification")
+
+# Function to handle the file browsing and update the entry field
+def browse_file():
+    filename = filedialog.askopenfilename()
+    entry_image_location.delete(0, tk.END)  # Clear the existing text
+    entry_image_location.insert(0, filename)  # Insert the new file path
 
 # Function to classify the image
 def classify_image():
@@ -77,7 +83,7 @@ entry_num_labels = tk.Entry(app)
 entry_num_labels.pack()
 entry_num_labels.insert(0, "5")  # Default value
 
-button_browse = tk.Button(app, text="Browse", command=lambda: entry_image_location.insert(tk.END, filedialog.askopenfilename()))
+button_browse = tk.Button(app, text="Browse", command=browse_file)
 button_browse.pack()
 
 button_classify = tk.Button(app, text="Classify", command=classify_image)
